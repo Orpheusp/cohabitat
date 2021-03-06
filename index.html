@@ -21,11 +21,14 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+    <link 
+      rel="preconnect" 
+      href="https://fonts.gstatic.com"
+    >
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Barlow:wght@300;400;500&display=swap" 
       rel="stylesheet"
-      type="text/css"
-    />
+    >
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet" />
@@ -33,60 +36,57 @@
 
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-light static-top">
       <div class="container">
-        <img
-          src="img/logo.png"
-          class="img-responsive"
-          alt="Responsive image"
-          width="100"
-        />
-        <a class="navbar-brand" href="#"></a>
-        <a class="btn btn-primary" href="#">Sign In</a>
+        <a class="navbar-brand" href="#"><h3 class="text-white">COHABITAT</h3></a>
+        <a class="btn btn-light" href="#">Sign In</a>
       </div>
     </nav>
 
     <!-- Masthead -->
     <header class="masthead text-white text-center">
-      <div class="overlay"></div>
+      <img class="background" src="img/bg-masthead.svg" width="100vw">
       <div class="container">
         <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Finding your dream share house!</h1>
+          <div class="col-xl-6 mx-auto">
+            <h1 class="mb-3">COHABITAT</h1>
+            <h4 class="mb-5">Build your co-living experience with intention.</h4>
           </div>
-          <div class="col-md-10 col-lg-10 col-xl-10 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-8 mb-2 mb-md-0">
-                  <input
-                    type="email"
-                    class="form-control form-control-lg"
-                    placeholder="Enter your email..."
-                  />
-                </div>
-                <div class="col-12 col-md-4">
-                  <button
-                    type="submit"
-                    class="btn btn-block btn-lg btn-primary"
-                  >
-                    Sign up for our newsletter!
-                  </button>
-                </div>
+        </div>
+        <div class="row">
+          <form class="col-xl-6 mx-auto">
+            <div class="form-row">
+              <div class="col-8 mb-3 mx-auto">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  placeholder="Enter your email..."
+                />
               </div>
-            </form>
-          </div>
+            </div>
+            <div class="form-row">
+              <div class="col-6 mx-auto">
+                <button
+                  type="submit"
+                  class="btn btn-block btn-lg btn-info"
+                >
+                  Sign up for our newsletter!
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </header>
 
     <!-- Icons Grid -->
-    <section class="features-icons bg-light text-center">
+    <section class="features-icons text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-docs m-auto text-primary"></i>
+                <i class="icon-docs m-auto"></i>
               </div>
               <h3>Apply Now</h3>
               <p class="lead mb-0">
@@ -97,7 +97,7 @@
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-briefcase m-auto text-primary"></i>
+                <i class="icon-briefcase m-auto"></i>
               </div>
               <h3>House Match</h3>
               <p class="lead mb-0">
@@ -109,7 +109,7 @@
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-speech m-auto text-primary"></i>
+                <i class="icon-speech m-auto"></i>
               </div>
               <h3>Live Chat</h3>
               <p class="lead mb-0">Providing live and secured chatting!</p>
@@ -200,9 +200,9 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="testimonials text-center bg-light">
+    <section class="testimonials text-center bg-light text-primary">
       <div class="container">
-        <h2 class="mb-5">What people are saying...</h2>
+        <h1 class="display-4 mb-5">What people are saying...</h1>
         <div class="row">
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
@@ -211,8 +211,8 @@
                 src="img/testimonials-1.jpg"
                 alt=""
               />
-              <h5>Hsin-Han Wu</h5>
-              <h6>Software Intern</h6>
+              <h3>Hsin-Han Wu</h3>
+              <h4>Software Intern</h4>
               <p class="font-weight-light mb-0">
                 "Enjoy my dream Co-live Experience with COHABITAT!"
               </p>
@@ -225,8 +225,8 @@
                 src="img/testimonials-2.jpg"
                 alt=""
               />
-              <h5>Dhairyya Agarwal</h5>
-              <h6>Product Manager</h6>
+              <h3>Dhairyya Agarwal</h3>
+              <h4>Product Manager</h4>
               <p class="font-weight-light mb-0">
                 "With COHABITAT, share house life have never been easier
                 before!"
@@ -240,8 +240,8 @@
                 src="img/testimonials-3.jpg"
                 alt=""
               />
-              <h5>Zihan Cao</h5>
-              <h6>Software Engineer</h6>
+              <h3>Zihan Cao</h3>
+              <h4>Software Engineer</h4>
               <p class="font-weight-light mb-0">
                 "Thanks COHABITAT for providing one-site application solution to
                 us!"
@@ -254,13 +254,12 @@
 
     <!-- Call to Action -->
     <section class="call-to-action text-white text-center">
-      <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">
+            <p class="display-4 mb-4">
               Ready to get started? Sign up for our newsletter now!
-            </h2>
+            </p>
           </div>
           <div class="col-md-10 col-lg-10 col-xl-10 mx-auto">
             <form>
@@ -275,7 +274,7 @@
                 <div class="col-12 col-md-4">
                   <button
                     type="submit"
-                    class="btn btn-block btn-lg btn-primary"
+                    class="btn btn-block btn-lg btn-info"
                   >
                     Sign up for our newsletter!
                   </button>

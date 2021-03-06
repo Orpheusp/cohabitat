@@ -24,12 +24,21 @@ $yellow: #ffc107 !default;
 $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
+$co-green: #6b9080 !default;
+$co-green-light: #cde4d7 !default;
+$co-green-dark: #273d42 !default;
+$co-pink: #f55161 !default;
 
-$primary: $blue !default;
-$secondary: $gray-600 !default;
+$body-bg: $co-green;
+$body-color: $white;
+
+$primary: $co-green !default;
+$secondary: $co-green-dark !default;
 $success: $green !default;
-$info: $cyan !default;
+$info: $co-pink !default;
 $warning: $yellow !default;
 $danger: $red !default;
-$light: $gray-100 !default;
+$light: $co-green-light !default;
 $dark: $gray-800 !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
