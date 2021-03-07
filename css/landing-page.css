@@ -9573,6 +9573,10 @@ h6 {
   background-color: transparent;
 }
 
+.navbar-buttons a {
+  margin-right: 0.5rem;
+}
+
 header.masthead {
   position: relative;
   height: 70vh;
